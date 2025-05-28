@@ -45,7 +45,7 @@
             }
         ],
         /* Clemente Hard Disk Drive NVMe Board 0*/
-        "Name": "Clemente HDD NVMe",
+        "Name": "Clemente HDD NVMe 0",
         "Probe": [
             "FOUND('Clemente HDD Carrier 0')"
         ],
@@ -98,7 +98,7 @@
             }
         ],
         /* Clemente Hard Disk Drive NVMe Board 1*/
-        "Name": "Clemente HDD NVMe",
+        "Name": "Clemente HDD NVMe 1",
         "Probe": [
             "FOUND('Clemente HDD Carrier 1')"
         ],
