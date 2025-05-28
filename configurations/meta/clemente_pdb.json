@@ -132,7 +132,7 @@
         },
         {
             "Address": "0x60",
-            "Bus": 19,
+            "Bus": 1,
             "Labels": [
                 "iout1",
                 "pout1",
@@ -183,7 +183,7 @@
         },
         {
             "Address": "0x61",
-            "Bus": 19,
+            "Bus": 1,
             "Labels": [
                 "iout1",
                 "pout1",
@@ -253,6 +253,28 @@
                 }
             ],
             "Type": "TMP1075"
+        },
+        {
+            "Address": "0x4c",
+            "Bus": 1,
+            "Name": "PDB_HSC_TEMP_C",
+            "Thresholds": [
+                {
+                    "Direction": "greater than",
+                    "Hysteresis": 1.6,
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 80
+                },
+                {
+                    "Direction": "less than",
+                    "Hysteresis": 0.1,
+                    "Name": "lower critical",
+                    "Severity": 1,
+                    "Value": 5
+                }
+            ],
+            "Type": "TMP451"
         }
     ],
     /* Clemente Power Delivery Board */
